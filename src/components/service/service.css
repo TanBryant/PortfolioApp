@@ -1,0 +1,44 @@
+.services .services__container {
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.services .services__container .services__card {
+  text-align: center;
+  padding: 1.875rem;
+  border-radius: var(--border-radius);
+  background-color: var(--container-color);
+  transition: all 0.3s ease-in-out;
+}
+.services .services__container .services__card:hover {
+  transform: translateY(-10px);
+}
+.services .services__container .services__card:nth-child(1) {
+  background-color: rgb(108, 108, 229);
+  box-shadow: 0px 5px 20px 0px rgb(108, 108, 229);
+}
+.services .services__container .services__card:nth-child(2) {
+  background-color: rgb(249, 215, 76);
+  box-shadow: 0px 5px 20px 0px rgb(249, 215, 76);
+}
+.services .services__container .services__card:nth-child(3) {
+  background-color: rgb(249, 123, 139);
+  box-shadow: 0px 5px 20px 0px rgb(249, 123, 139);
+}
+.services .services__container .services__card .services__img {
+  margin-bottom: 1.25rem;
+}
+.services .services__container .services__card .services__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.services .services__container .services__card .services__description {
+  color: #f8f9fa;
+}
+.services .services__container .services__card:nth-child(2) .services__title {
+  color: var(--title-color);
+}
+.services .services__container .services__card:nth-child(2) .services__description {
+  color: var(--text-color);
+}/*# sourceMappingURL=service.css.map */

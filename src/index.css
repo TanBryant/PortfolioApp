@@ -9,8 +9,8 @@
   --first-color: hsl(353, 100%, 65%);
   --title-color: hsl(244, 24%, 26%);
   --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 605, 98%);
-  --conatiner-color: #fff;
+  --body-color: hsl(258, 60%, 98%);
+  --container-color: #fff;
 
   /* ============ Font and Typograpyhy========= */
   /* .5rem = 8px | 1rem = 10px ... */
@@ -101,7 +101,7 @@ img {
 
 /* =================== Resuable CSS Classes ================ */
 .container {
-  max-width: 1080px;
+  max-width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
@@ -158,6 +158,6 @@ img {
   }
 }
 
-.bth:hover {
+.btn:hover {
   animation: button-push 0.3s linear 1;
 }

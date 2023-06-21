@@ -1,0 +1,12 @@
+.contact.section {
+  padding-bottom: 6.25rem;
+}
+.contact.section .contact__container {
+  grid-template-columns: 4fr 8fr;
+  -moz-column-gap: 1.875rem;
+       column-gap: 1.875rem;
+}
+.contact.section .contact__container .contact__info .contact__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=contact.css.map */
