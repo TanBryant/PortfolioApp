@@ -101,10 +101,10 @@ img {
 
 /* =================== Resuable CSS Classes ================ */
 .container {
-  max-width: 100%;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
+  margin: auto;
 
 }
 
