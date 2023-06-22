@@ -50,4 +50,17 @@
 }
 .blog .blog__container .blog__card .blog__details .blog__meta .blog__meta {
   font-weight: var(--font-bold);
+}
+
+@media screen and (max-width: 1024px) {
+  .blog .blog__container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog .blog__container {
+    grid-template-columns: 310px;
+  }
 }/*# sourceMappingURL=blog.css.map */

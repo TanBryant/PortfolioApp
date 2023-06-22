@@ -44,4 +44,36 @@
 .resume .resume__container .timeline .timeline__item .timeline__title {
   font-size: var(--h3-font-size);
   margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .resume .resume__container {
+    grid-template-columns: 450px;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+  .resume .resume__container .timeline__item::before {
+    left: 22px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .resume .resume__container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 350px) {
+  .resume .resume__container .timeline__item {
+    padding-left: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+  .resume .resume__container .timeline__item::before {
+    left: 0;
+  }
+  .resume .resume__container .timeline__item .icon-briefcase,
+  .resume .resume__container .timeline__item .icon-graduation {
+    left: -9px;
+  }
+  .resume .resume__container .timeline__item .timeline__text {
+    text-align: justify;
+  }
 }/*# sourceMappingURL=resume.css.map */

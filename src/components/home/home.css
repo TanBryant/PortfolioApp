@@ -133,4 +133,10 @@
 .shapes .s11 {
   bottom: 10%;
   right: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .home__socials-link {
+    font-size: 1.125rem;
+  }
 }/*# sourceMappingURL=home.css.map */

@@ -1,6 +1,7 @@
 .work .work__filters {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   -moz-column-gap: 1.875rem;
        column-gap: 1.875rem;
   margin-bottom: 2.5rem;
@@ -84,4 +85,28 @@
 .work .work__container .work__card:hover .work__title, .work .work__container .work__card:hover .work__category {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media screen and (max-width: 1024px) {
+  .work .work__filters {
+    justify-content: center;
+  }
+  .work .work__container {
+    grid-template-columns: repeat(2, 330px);
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .work .work__container {
+    grid-template-columns: 310px;
+  }
+  .work .work__filters {
+    row-gap: 0.25rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .work .work__container {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=portfolio.css.map */
